@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html{
+    background-color:#6495ED;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#menu{
+    list-style: none;
+    padding:0;   
+    background-color: #191970;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#menu li{display: inline;
+    
+}
+#menu li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+      
+}
+#GDD{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align:center; 
+}
+#img {
+    margin-left: 30%;
+    margin-top:5%;
+    max-width: 40%;
+    max-height : 40%;
+    width:auto;
+    height: auto;
+}
+#faq{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+}
+#oceanoimg{
+    margin-left: 30%;
+    margin-top:5%;
+    max-width: 40%;
+    max-height:40%;
+    width:auto;
+    height:auto;
+}
+#logomenu{
+max-width: 10%;
+max-height: 10%;
+width:auto;  
+height:auto;
+text-align: center;
+}
