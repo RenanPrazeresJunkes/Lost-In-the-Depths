@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');    
+@import url("https://fonts.googleapis.com/css?family=Roboto:400, 700");
+@font-face {
+    font-family: "TrajanPro-Regular"; font-style: normal;
+    font-weight: 400;
+    src: url("/css/TrajanProRegular.ttf") format("OpenType");
+}
+html{
+    background:url("/img/fundo.png");
+    background-color: #001437;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#github{
+    text-align:right;
+    padding: 0%;
+    
+}
+#menu{
+    list-style: none;
+    padding:0;   
+    background-color: #00143788;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  
+}
+#menu background-color{
+    opacity:50%;
+}
+#menu li{display: inline;
+    opacity: 100%;
+}
+#menu li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    opacity: 100%;
+}
+
+#GDD{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    text-align:center; 
+}
+#imglogo {
+    margin-left: 35%;
+    margin-top:4px;
+    max-width: 40%;
+    max-height : 40%;
+    width:auto;
+    height: auto;
+
+}
+#faq{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+}
+#oceanoimg{
+    margin-left: 30%;
+    margin-top:5%;
+    max-width: 40%;
+    max-height:40%;
+    width:auto;
+    height:auto;
+}
+#logomenu{
+max-width: 10%;
+max-height: 10%;
+width:auto;  
+height:auto;
+text-align: center;
+}
+
+#imgchtullu {
+    margin-left: 33%;
+    margin-top:4px;
+    max-width: 40%;
+    max-height : 40%;
+    width:auto;
+    height: auto;
+
+}
+#img {
+    margin-left: 30%;
+    margin-top:4px;
+    max-width: 40%;
+    max-height : 40%;
+    width:auto;
+    height: auto;
+
+}
+
+:root {
+    --black-2: rgba(0, 0, 0, 0.502);
+    --black: rgba(0, 0, 0, 1);
+    --midnight: rgba(0, 20, 55, 0.502);
+    --cobalt: rgba(0, 74, 173, 1);
+    --bahama-blue: rgba(8, 98, 156, 1);
+    --white-2: rgba(255, 255, 255, 0.749);
+    --white: rgba(255, 255, 255, 1);
+    --font-size-s: 12px;
+    --font-size-m: 24px;
+    --font-size-1: 28px;
+    --font-size-x1: 36px;
+    --font-family-roboto: "Roboto";
+    --font-family-trajan_pro-bold: "Trajan Pro-Bold";
+    -font-family-trajan_pro-regular: "Trajan Pro-Regular";
+}
+    .explore-as-profundez {
+    -webkit-text-stroke: 1px var(--black);
+    color: #ffffff80;
+    font-weight: 400;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 949px;
+    width: 649px;
+    font-family:'TrajanPro-Regular';
+    }
+
+.lost-in-the-depths {
+    flex: 1;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+}
+.ul { 
+    align-items: flex-start; 
+    border: 1px none; 
+    display: flex; 
+    flex-direction: column;
+    left: 6px;
+    position: absolute; 
+    top: 610px;
+    width: 1625px;
+     }
+.ul-item {
+    align-items: flex-start; 
+    align-self: stretch; 
+    border: 1px none; 
+    display: flex;
+ }
+.fluxo-do-jogo-jogo { 
+    flex: 1; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    margin-top: -1px; 
+}
+.text {
+height: 33px; 
+letter-spacing: 0;
+ line-height: normal; 
+ margin-top: -1px; 
+ text-align: center; 
+ width: 33px;
+}
+.evoluo-de-personag {
+    flex: 1;
+    letter-spacing: 0;
+    line-height: normal; margin-top: -1px;
+    }
+    .um-ser-morava-nas-pr {
+    color: var(--white); 
+    font-family: var(--font-family-roboto);
+     font-size: var (--font-size-1);
+    font-weight: 700;
+    left: 411px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 305px;
+    width: 1110px;
+    }
+
+
+.roboto-bold-white-24px { 
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-weight: 700;
+    font-size: var(--font-size-m);
+     font-style: normal; }
+.trajanpro-bold-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-trajan_pro-bold); 
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+.roboto-bold-white-12px { 
+    color: var(--white);
+    font-family: var(--font-family-roboto); 
+    font-size: var(--font-size-s);
+    font-style: normal; 
+    font-weight: 700;
+    }
+.roboto-bold-white-28px {
+    color: var(--white-2);
+    font-family: var(--font-family-roboto);
+    font-weight: 700;
+    font-size: var(--font-size-1); 
+    font-style: normal;
+}
+.trajanpro-bold-white-36px {
+    color: var(--white);
+    font-family: var(--font-family-trajan_pro-bold);
+    font-size: var(--font-size-x1);
+    font-weight: 700;
+    font-style: normal;
+}
+.roboto-normal-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
